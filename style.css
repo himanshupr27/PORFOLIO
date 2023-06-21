@@ -51,6 +51,7 @@ body{
 .navbar a:hover,.navbar a.active
 {
     color: var(--ma-color);
+    transform: scale(1.1);
 }
 #home{
 display: flex;
