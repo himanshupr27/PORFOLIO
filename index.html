@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Himanshu Prasad's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Poppins:ital@1&family=Roboto+Slab:wght@600&display=swap"
+        rel="stylesheet">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+  <section id="h">
+   <header class="header">
+    <a href="#" class="logo">PORTFOLIO</a>
+    <i class='bx bx-menu' id="menu"></i>
+    <nav class="navbar">
+        <a href="#home" class="active">HOME</a>
+        <a href="#about">ABOUT</a>
+        <a href="#projects">PROJECTS</a>
+        <a href="#contact">CONTACT ME</a>
+    </nav>
+
+   </header>
+   <div class="home-video">
+    <video autoplay muted loop id="myVideo">
+        <source src="home.mp4" type="video/mp4">
+      </video>
+    </div>
+  </section>
+   <section class="home" id="home">
+    <div class="home-content-left">
+        <h3>Hello It's me</h3>
+        <h1 id="name">HIMANSHU PRASAD</h1>
+        <h3>A computer science student passionate</h3>
+        <span id="element"></span>
+    </div>
+   </section>
+   <section class="about" id="about">
+    <h1>ABOUT ME</h1>
+    <div class="line"></div>
+    <div class="abox">
+    <div class="image">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTadiAkyqUYNIZACGiJmjavq2jzl4bL0EJTQ&usqp=CAU" alt="dp">
+    </div>
+    <div class="aboutme">
+      Hi ,My name is Himanshu Prasad. <br>
+      I am in 3rd year of B.Tech in kiit prsuing computer science engineering. I am from jamshedpur ,Jharkhand . I have completed my scooling from D.B.M.S. English School jamshedpur.<br>   
+      I like to travel. I believe travelling gives you a new perspective to everything. You get to know a lot about the different cultures, the cuisines, their history, the language and all the small unique things every place has to offer.
+    </div>
+  </div>
+   </section>
+   <section class="projects" id="projects">
+    <div class="heading">
+      <h1>LATEST</h1><h1 id="pro">PROJECTS</h1>
+    </div>
+     <div class="li"></div>
+     <div class="projectbox">
+    <div class="prcontainer" id="gd">
+      <img src="drive.png" alt="google_grive">
+      <div class="layers">
+        <h3>Google Drive Replica</h3><br>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+      <a href="#"><i class='bx bx-link-external'></i></a>
+    </div>
+    </div>
+    <div class="prcontainer" id="gc">
+      <img src="to-do.webp" alt="to-do list">
+      <div class="layers">
+        <h3>To-Do-List</h3><br>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+      <a href="#"><i class='bx bx-link-external'></i></a>
+    </div>
+    </div>
+    <div class="prcontainer" id="gc">
+      <img src="unit.jpg" alt="unit calculator">
+      <div class="layers">
+        <h3>Unit Converter</h3><br>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      <a href="#"><i class='bx bx-link-external'></i></a>
+    </div>
+    </div>
+    <div class="prcontainer" id="gc">
+      <img src="breardo.jpeg" alt="beardo">
+      <div class="layers">
+        <h3>Beardo clone</h3><br>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      <a href="#"><i class='bx bx-link-external'></i></a>
+    </div>
+    </div>
+    </div>
+   </section>
+  <section class="contact" id="contact">
+    <h1>CONTACT</h1>
+    <div class="line"></div>
+    <form action="#">
+    <div class="input">
+      <input type="text" name="ename" id="ename" placeholder="Enter Name">
+      <input type="email" name="email" id="email" placeholder="Enter Email">
+    </div>
+    <div class="input">
+      <input type="number" name="number" id="number" placeholder="Enter Phone number">
+      <input type="text" name="city" id="city" placeholder="Enter the city">
+    </div>
+    <textarea name="message" id="message" cols="30" rows="5" placeholder="Enter the message" ></textarea>
+    <input type="button" value="SEND MESSEAGE" id="btn">
+    </form>
+    <a href="#home"><i class='bx bxs-chevron-up up'></i></a>
+  </section>
+  <div class="conn">
+    <h3>Follow me !</h3>
+    <i class='bx bxl-github fo'></i>
+    <i class='bx bxl-facebook-circle fo'></i>
+    <i class='bx bxl-instagram-alt fo'></i>
+    <i class='bx bxl-linkedin-square fo'></i>
+  </div>
+  <div class="copy">
+    <p>Copywrite &copy; Himanshu Prasad All rights reserved! </p>
+  </div>
+   <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
